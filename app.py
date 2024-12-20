@@ -12,6 +12,10 @@ app = Flask(__name__)
 API_TOKEN = os.getenv('HUGGING_FACE_API_TOKEN')
 
 API_URL = "https://api-inference.huggingface.co/models/gpt2"
+#  gpt2
+#  openai-community/gpt2
+#  google/gemma-2-2b-it
+
 
 # A function to send requests to Hugging Face API
 def generate_text(input_text):
